@@ -21,8 +21,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', deal.views.home, name="home"),
     path('money/', deal.views.all_money, name="money"),
-    path('/create', deal.views.create, name="create"),
-    path('/sum', deal.views.sums, name="sums"),
+    path('create/', deal.views.create, name="create"),
+    path('sum/', deal.views.sums, name="sums"),
     path('login/', deal.views.login, name="login"),
 ]
 
