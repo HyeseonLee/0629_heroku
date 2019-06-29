@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY=os.environ.get('SECRET_KEY') # 환경변수 SECRET_KEY를 데려오는거야.
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = bool( os.environ.get('DJANGO_DEBUG'. False))
+DEBUG = bool( os.environ.get('DJANGO_DEBUG', False))
 
 ALLOWED_HOSTS = []
 
