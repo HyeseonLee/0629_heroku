@@ -1,0 +1,1 @@
+web: gunicorn moneyproject.wsgi --log-file -
